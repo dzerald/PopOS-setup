@@ -1,0 +1,28 @@
+---
+- hosts: localhost
+
+  tasks:
+  - name: Install packages
+    apt:
+      pkg:
+        - arc-theme
+        - chromium
+        - ffmpeg
+        - flat-remix-gtk
+        - gnome-tweaks
+        - htop
+        - ipcalc        
+        - libreoffice-l10n-pl
+        - neofetch
+        - openvpn
+        - papirus-icon-theme
+        - skypeforlinux
+        - steam
+        - sysstat
+        - tigervnc-viewer
+        - traceroute
+        - tilix
+        - thunderbird
+        - vim
+        - whois
+      state: present
