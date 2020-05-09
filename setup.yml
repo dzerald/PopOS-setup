@@ -5,7 +5,6 @@
   - name: Install packages
     apt:
       pkg:
-        - arc-theme
         - chromium
         - ffmpeg
         - flat-remix-gtk
@@ -13,6 +12,7 @@
         - htop
         - ipcalc        
         - libreoffice-l10n-pl
+        - nagstamon
         - neofetch
         - openvpn
         - papirus-icon-theme
@@ -24,5 +24,6 @@
         - tilix
         - thunderbird
         - vim
+        - virt-manager
         - whois
       state: present
